@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/bin/node /Users/dongyuanjie/.npm-global/bin/yarn add flow-bin --dev
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/sbin:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/dongyuanjie/Documents/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/mysql/bin:/Users/dongyuanjie/.npm-global/bin:/usr/local/mongodb/mongodb-macos-x86_64-4.2.1/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/dongyuanjie/Documents/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/mysql/bin:/Users/dongyuanjie/.npm-global/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npmjs.org/flow-bin: ETIMEDOUT
+      at Timeout._onTimeout (/Users/dongyuanjie/.npm-global/lib/node_modules/yarn/lib/cli.js:141408:19)
+      at ontimeout (timers.js:436:11)
+      at tryOnTimeout (timers.js:300:5)
+      at listOnTimeout (timers.js:263:5)
+      at Timer.processTimers (timers.js:223:10)
+
+npm manifest: 
+  {
+    "name": "flow",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
