@@ -7,6 +7,13 @@ function square(n: number) {
   return n * n
 }
 
-square(2)
+let num: number = 2
+
+square(num)
 
 // square('2')
+
+
+function foo(): void {
+  
+}
