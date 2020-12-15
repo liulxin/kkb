@@ -1,3 +1,4 @@
+"use strict";
 var str = 'xiaoming';
 var hello = function (name) {
     console.log(name + ", hello");
